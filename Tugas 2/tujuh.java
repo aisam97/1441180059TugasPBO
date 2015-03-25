@@ -3,7 +3,7 @@ public class tujuh{
         float jum=0;
         float hsl=0;
         int bg=10;
-    System.out.println("*Hasil Urutan Angka 1-10*");
+    System.out.println("*Rata Jumlah Angka 1-10*");
     for (int i=1; i<=bg; i++)
     {
         jum+=i;
