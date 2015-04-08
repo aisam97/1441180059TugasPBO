@@ -1,6 +1,6 @@
 class circle{
-		double radius;
-		String color;
+		private double radius;
+		private String color;
 
 		public circle(){
 			radius = 1.0;
@@ -27,5 +27,13 @@ class circle{
 
 		public double getArea(){
 			return radius*radius*Math.PI;
+		}
+
+		public double setRadius(double radius){
+			return this.radius = radius;
+		}
+
+		public String setColor(String color){
+			return this.color = color;
 		}
 }
