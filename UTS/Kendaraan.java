@@ -30,6 +30,7 @@ class Mobil extends Kendaraan
 		System.out.println("Kecepatan Maks Kendaraan: "+mob.Kendaraan());
 		System.out.println("Kecepatan Maks Mobil: "+KecepatanMaks);
 		System.out.println("Berat Mobil: "+Berat);
+		System.out.println("Kapasitas Mobil: "+Kapasitas);
 		System.out.println("Jumlah Roda Mobil: "+JumlahRoda);
 		System.out.println();
 	}
