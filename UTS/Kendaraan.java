@@ -12,8 +12,8 @@ class Kendaraan
 
 class Mobil extends Kendaraan 
 {
-	private int KecepatanMaks;
-	private int JumlahRoda;
+	int KecepatanMaks;
+	int JumlahRoda;
 
 	Kendaraan mob = new Kendaraan();
 
