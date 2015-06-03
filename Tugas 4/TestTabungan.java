@@ -12,7 +12,7 @@ public static void main(String[] args) {
 		System.out.println("Simpanan 			= Rp."+satu.getSimpanan()+"");
 		System.out.println("Nomor Rekening 			= "+satu.getNoRek());
 		System.out.println("Bunga 				= "+satu.getBunga()+"%");
-		String ulang;
+		int ulang;
 		do
 		{
 		System.out.println("1. Menabung");
@@ -48,9 +48,9 @@ public static void main(String[] args) {
 			break;
 			}
 			System.out.print("Apakah Anda Ingin Melakukan Transaksi lain? \n 1. Iya \n 2. Tidak \n Pilihan Anda(Angka) = ");
-			ulang = uang.nextLine();
+			ulang = uang.nextInt();
 		}
-			while (ulang == "y");
+			while (ulang == 1);
 
 
 		System.out.println();
@@ -93,9 +93,9 @@ public static void main(String[] args) {
 			break;
 			}
 			System.out.print("Apakah Anda Ingin Melakukan Transaksi lain? \n 1. Iya \n 2. Tidak \n Pilihan Anda(Angka) = ");
-			ulang = uang.nextLine();
+			ulang = uang.nextInt();
 		}
-			while (ulang == "y");
+			while (ulang == 1);
 
 		System.out.println();
 		System.out.println("Pemilik Rekening Ketiga		= "+ tiga.getPemilikRek());
@@ -137,9 +137,9 @@ public static void main(String[] args) {
 			break;
 			}
 			System.out.print("Apakah Anda Ingin Melakukan Transaksi lain? \n 1. Iya \n 2. Tidak \n Pilihan Anda(Angka) = ");
-			ulang = uang.next();
+			ulang = uang.nextInt();
 		}
-			while (ulang == "y");
+			while (ulang == 1);
 
 		System.out.println();
 		System.out.println("Pemilik Rekening Keempat	= "+ empat.getPemilikRek());
@@ -181,8 +181,8 @@ public static void main(String[] args) {
 			break;
 			}
 			System.out.print("Apakah Anda Ingin Melakukan Transaksi lain? \n 1. Iya \n 2. Tidak \n Pilihan Anda(Angka) = ");
-			ulang = uang.nextLine();
+			ulang = uang.nextInt();
 		}
-			while (ulang == "y");
+			while (ulang == 1);
 	}
 }
