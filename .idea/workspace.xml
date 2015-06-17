@@ -1,23 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe4e9e84-a302-4448-9c64-508a731e87b9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tugas 8/tugas/delapan/Nasabah.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tugas 8/tugas/delapan/Rekening.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tugas 8/tugas/delapan/TestUnit.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/1441180059TugasPBO/tugas/tujuh/Brand.class" afterPath="$PROJECT_DIR$/out/production/1441180059TugasPBO/tugas/tujuh/Brand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/1441180059TugasPBO/tugas/tujuh/Laptop.class" afterPath="$PROJECT_DIR$/out/production/1441180059TugasPBO/tugas/tujuh/Laptop.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/1441180059TugasPBO/tugas/tujuh/TestClassLaptop.class" afterPath="$PROJECT_DIR$/out/production/1441180059TugasPBO/tugas/tujuh/TestClassLaptop.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1441180059TugasPBO.iml" afterPath="$PROJECT_DIR$/1441180059TugasPBO.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="fe4e9e84-a302-4448-9c64-508a731e87b9" name="Default" comment="" />
     <list id="7d80f945-a610-4d2e-b10f-979f82b14d16" name="Rejected commit: Default" comment="" />
-    <list id="d7d13047-3f09-46ef-85b2-efa2c95a42a9" name="Rejected commit: Default (2)" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tugas 7/tugas/tujuh/Brand.java" afterPath="$PROJECT_DIR$/Tugas 7/tugas/tujuh/Brand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tugas 7/tugas/tujuh/Laptop.java" afterPath="$PROJECT_DIR$/Tugas 7/tugas/tujuh/Laptop.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tugas 7/tugas/tujuh/TestClassLaptop.java" afterPath="$PROJECT_DIR$/Tugas 7/tugas/tujuh/TestClassLaptop.java" />
-    </list>
+    <list id="d7d13047-3f09-46ef-85b2-efa2c95a42a9" name="Rejected commit: Default (2)" comment="" />
     <ignored path="1441180059TugasPBO.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -598,12 +584,12 @@
       <workItem from="1433923845955" duration="6728000" />
       <workItem from="1434527257266" duration="4305000" />
       <workItem from="1434531878767" duration="499000" />
-      <workItem from="1434548214218" duration="947000" />
+      <workItem from="1434548214218" duration="1060000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12768000" />
+    <option name="totallyTimeSpent" value="12881000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
