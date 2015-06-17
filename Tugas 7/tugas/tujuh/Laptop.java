@@ -6,13 +6,16 @@ package tugas.tujuh;
 
 public class Laptop {
 
+
+    private String tipeLaptop;
     private String OS;
     private String CPU;
     private String GPU;
     private String RAM;
     private Brand createdBy;
 
-    public Laptop(String OS, String CPU, String GPU, String RAM, Brand createdBy) {
+    public Laptop(String tipeLaptop, String OS, String CPU, String GPU, String RAM, Brand createdBy) {
+        this.tipeLaptop = tipeLaptop;
         this.OS = OS;
         this.CPU = CPU;
         this.GPU = GPU;
@@ -20,6 +23,12 @@ public class Laptop {
         this.createdBy = createdBy;
     }
 
+    public String getTipeLaptop() {
+        return tipeLaptop;
+    }
+    public void setTipeLaptop(String tipeLaptop) {
+        this.tipeLaptop = tipeLaptop;
+    }
     public String getOS() {
         return OS;
     }
@@ -62,12 +71,12 @@ public class Laptop {
 
     @Override
     public String toString() {
-        return "Laptop{" +
-                "OS='" + OS + '\'' +
-                ", CPU='" + CPU + '\'' +
-                ", GPU='" + GPU + '\'' +
-                ", RAM='" + RAM + '\'' +
-                ", createdBy=" + createdBy +
-                '}';
+        return "Laptop = " +
+                "\nTipe Laptop = " + tipeLaptop +
+                "\nOS = " + OS +
+                "\nCPU= " + CPU +
+                "\nGPU= " + GPU +
+                "\nRAM= " + RAM +
+                "\ncreatedBy =\n" + createdBy;
     }
 }

@@ -6,15 +6,15 @@ package tugas.tujuh;
 public class Brand{
 
     private String nama;
-    private String HDD;
-    private String layar;
-    private String berat;
+    private String negara;
+    private int tahunBerdiri;
+    private String situsWeb;
 
-    public Brand(String nama, String HDD, String layar, String berat) {
+    public Brand(String nama, String negara, int tahunBerdiri, String situsWeb) {
         this.nama = nama;
-        this.HDD = HDD;
-        this.layar = layar;
-        this.berat = berat;
+        this.negara = negara;
+        this.tahunBerdiri = tahunBerdiri;
+        this.situsWeb = situsWeb;
     }
 
     public String getNama() {
@@ -25,37 +25,36 @@ public class Brand{
         this.nama = nama;
     }
 
-    public String getHDD() {
-        return HDD;
+    public String getnegara() {
+        return negara;
     }
 
-    public void setHDD(String HDD) {
-        this.HDD = HDD;
+    public void setnegara(String negara) {
+        this.negara = negara;
     }
 
-    public String getLayar() {
-        return layar;
+    public int gettahunBerdiri() {
+        return tahunBerdiri;
     }
 
-    public void setLayar(String layar) {
-        this.layar = layar;
+    public void settahunBerdiri(int tahunBerdiri) {
+        this.tahunBerdiri = tahunBerdiri;
     }
 
-    public String getBerat() {
-        return berat;
+    public String getsitusWeb() {
+        return situsWeb;
     }
 
-    public void setBerat(String berat) {
-        this.berat = berat;
+    public void setsitusWeb(String situsWeb) {
+        this.situsWeb = situsWeb;
     }
 
     @Override
     public String toString() {
-        return "Brand{" +
-                "nama='" + nama + '\'' +
-                ", HDD='" + HDD + '\'' +
-                ", layar='" + layar + '\'' +
-                ", berat='" + berat + '\'' +
-                '}';
+        return "Brand\n" +
+                "Nama = " + nama +
+                "\nNegara = " + negara +
+                "\nTahun Berdiri = " + tahunBerdiri +
+                "\nSitus Web = " + situsWeb;
     }
 }
