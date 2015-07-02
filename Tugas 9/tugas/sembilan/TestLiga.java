@@ -5,38 +5,59 @@ import com.sun.org.apache.xpath.internal.operations.Div;
 /**
  * Created by Muhammad Isam on 24/06/2015.
  */
-public class TestLiga {
-
+public class TestLiga
+{
     public static void main(String[] args) {
         // write your code here
+//        instansiasi liga
         Liga italy = new Liga("Italy");
-        Divisi serieA = new Divisi("Serie A",italy);
-        Divisi serieB = new Divisi("Serie B",italy);
+        Liga idn = new Liga("Indonesia");
 
+//      set liga
+        italy.setDaftarLiga(idn);
+        italy.setDaftarLiga(italy);
+// intasisasi Divisi
+        Divisi serieA = new Divisi("Serie A", italy);
+        Divisi serieB = new Divisi("Serie B", italy);
+        Divisi ISL = new Divisi("ISL", idn);
+        Divisi IPL = new Divisi("IPL", idn);
+//      set divisi
         italy.setDaftarDivisi(serieA);
         italy.setDaftarDivisi(serieB);
+        idn.setDaftarDivisi(ISL);
+        idn.setDaftarDivisi(IPL);
 
         // objek klub
-        Klub inter = new Klub("Internazionale",serieA,italy);
-        Klub ac = new Klub("Ac Milan",serieA,italy);
-        Klub jp = new Klub("Juventus B",serieB,italy);
-        Klub fn = new Klub("Fiorentina B",serieB,italy);
-        serieA.setDaftarKlub(inter);
-        italy.setDaftarKlub(inter);
+        Klub ir = new Klub("Internazionale", serieA, italy);
+        Klub ac = new Klub("Ac Milan", serieA,italy);
+        Klub jp = new Klub("Juventus", serieB,italy);
+        Klub lz = new Klub("Lazio", serieB,italy);
+        Klub ar = new Klub("Arema", ISL,idn);
+        Klub jk = new Klub("Persija", IPL,idn);
+
+//        Set daftar Klub
+        serieB.setDaftarKlub(lz);
+        serieA.setDaftarKlub(ir);
         serieA.setDaftarKlub(ac);
-        italy.setDaftarKlub(ac);
         serieB.setDaftarKlub(jp);
-        italy.setDaftarKlub(jp);
-        serieB.setDaftarKlub(fn);
-        italy.setDaftarKlub(fn);
-        System.out.println("Daftar Divisi dalam Liga Italy = "+italy.getDaftarDivisi());
-        System.out.println("Daftar Klub dalam Liga Italy = "+italy.getDaftarKlub());
-        System.out.println("Daftar Klub dalam Divisi Serie A = "+serieA.getDaftarKlub());
-        System.out.println("Daftar Klub dalam Divisi Serie B = "+serieB.getDaftarKlub());
-        System.out.println("Internazionale dalam Divisi = "+inter.getDivisi());
-        System.out.println("Internazionale dalam Liga = "+inter.getLiga());
-        System.out.println("Juventus dalam Divisi = "+jp.getDivisi());
-        System.out.println("Juventus dalam Liga = "+jp.getLiga());
+        ISL.setDaftarKlub(ar);
+        IPL.setDaftarKlub(jk);
+
+        System.out.println("Nomor 1 = ");
+        italy.getDaftarDivisi("Italy");
+        italy.getDaftarDivisi("Indonesia");
+        System.out.println("Nomor 2 = ");
+        serieA.getDaftarKlubLiga("Italy");
+        IPL.getDaftarKlubLiga("Indonesia");
+        System.out.println("Nomor 3 = ");
+        System.out.println("Serie B");
+        serieA.getDaftarKlubDivisi("Serie B");
+        System.out.println("Serie A");
+        serieA.getDaftarKlubDivisi("Serie A");
+        System.out.print("Nomor 4 = ");
+        ac.getDivisi("Lazio");
+        System.out.print("Nomor 5 = ");
+        ac.getLiga("Lazio");
 
 
     }

@@ -13,15 +13,20 @@ public class Divisi{
         this.liga = liga;
     }
 
-    public Divisi() {
-    }
-
     public String getNamaDivisi() {
         return namaDivisi;
     }
 
     public void setNamaDivisi(String namaDivisi) {
         this.namaDivisi = namaDivisi;
+    }
+
+    public Liga getLiga() {
+        return liga;
+    }
+
+    public void setLiga(Liga liga) {
+        this.liga = liga;
     }
 
     public ArrayList<Klub> getDaftarKlub() {
@@ -32,13 +37,38 @@ public class Divisi{
         this.daftarKlub.add(klub);
     }
 
-    public Liga getLiga() {
-        return liga;
-    }
+    //    nomor 2
 
-    public void setLiga(Liga liga) {
-        this.liga = liga;
-    }
+   public void getDaftarKlubLiga(String ligaCari)
+   {
+       if (ligaCari == liga.getNamaLiga()) {
+
+           for (int i = 0; i < liga.daftarDivisi.size() ; i++)
+           {
+               Divisi l = liga.daftarDivisi.get(i);
+               System.out.println(l.getNamaDivisi());
+               for (int j = 0; j <daftarKlub.size() ; j++) {
+                   System.out.println(l.daftarKlub.get(j));
+               }
+
+           }
+
+       }
+   }
+//    nomor 3
+   public void getDaftarKlubDivisi(String divisiCari)
+   {
+       for (int i = 0; i < liga.daftarDivisi.size() ; i++)
+       {
+           Divisi l = liga.daftarDivisi.get(i);
+           if (divisiCari == l.getNamaDivisi()) {
+               for (int j = 0; j <daftarKlub.size() ; j++)
+               {
+                   System.out.println(l.daftarKlub.get(j));
+               }
+           }
+       }
+   }
 
     @Override
     public String toString() {

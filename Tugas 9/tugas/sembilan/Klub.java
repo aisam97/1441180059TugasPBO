@@ -8,7 +8,7 @@ public class Klub{
     private Divisi divisi;
     private Liga liga;
 
-    public Klub(String namaKlub, Divisi divisi, Liga liga) {
+    public Klub( String namaKlub, Divisi divisi, Liga liga) {
         this.namaKlub = namaKlub;
         this.divisi = divisi;
         this.liga = liga;
@@ -22,16 +22,41 @@ public class Klub{
         this.namaKlub = namaKlub;
     }
 
-    public Divisi getDivisi() {
-        return divisi;
+    public void getDivisi(String cari )
+    {
+        for (int i = 0; i < liga.daftarDivisi.size() ; i++)
+        {
+            Divisi l = liga.daftarDivisi.get(i);
+            for (int j = 0; j <divisi.daftarKlub.size() ; j++)
+            {
+            l.daftarKlub.get(j);
+            Klub c = l.daftarKlub.get(j);
+                if (cari == c.getNamaKlub())
+                {
+                    System.out.println(l.getNamaDivisi());
+                }
+            }
+        }
     }
 
     public void setDivisi(Divisi divisi) {
         this.divisi = divisi;
     }
 
-    public Liga getLiga() {
-        return liga;
+    public void getLiga(String cari) {
+        for (int i = 0; i < liga.daftarDivisi.size() ; i++)
+        {
+            Divisi l = liga.daftarDivisi.get(i);
+            for (int j = 0; j <divisi.daftarKlub.size() ; j++)
+            {
+                l.daftarKlub.get(j);
+                Klub c = l.daftarKlub.get(j);
+                if (cari == c.getNamaKlub())
+                {
+                    System.out.println(liga.getNamaLiga());
+                }
+            }
+        }
     }
 
     public void setLiga(Liga liga) {
