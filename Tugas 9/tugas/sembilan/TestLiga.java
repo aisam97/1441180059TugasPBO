@@ -16,11 +16,13 @@ public class TestLiga
 //      set liga
         italy.setDaftarLiga(idn);
         italy.setDaftarLiga(italy);
+
 // intasisasi Divisi
         Divisi serieA = new Divisi("Serie A", italy);
         Divisi serieB = new Divisi("Serie B", italy);
         Divisi ISL = new Divisi("ISL", idn);
         Divisi IPL = new Divisi("IPL", idn);
+
 //      set divisi
         italy.setDaftarDivisi(serieA);
         italy.setDaftarDivisi(serieB);
@@ -44,10 +46,14 @@ public class TestLiga
         IPL.setDaftarKlub(jk);
 
         System.out.println("Nomor 1 = ");
+        System.out.println("Italy");
         italy.getDaftarDivisi("Italy");
+        System.out.println("Indonesia");
         italy.getDaftarDivisi("Indonesia");
         System.out.println("Nomor 2 = ");
+        System.out.println("Italy");
         serieA.getDaftarKlubLiga("Italy");
+        System.out.println("Indonesia");
         IPL.getDaftarKlubLiga("Indonesia");
         System.out.println("Nomor 3 = ");
         System.out.println("Serie B");

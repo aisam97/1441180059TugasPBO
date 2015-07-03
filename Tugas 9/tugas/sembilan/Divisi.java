@@ -61,7 +61,8 @@ public class Divisi{
        for (int i = 0; i < liga.daftarDivisi.size() ; i++)
        {
            Divisi l = liga.daftarDivisi.get(i);
-           if (divisiCari == l.getNamaDivisi()) {
+           if (divisiCari == l.getNamaDivisi())
+           {
                for (int j = 0; j <daftarKlub.size() ; j++)
                {
                    System.out.println(l.daftarKlub.get(j));

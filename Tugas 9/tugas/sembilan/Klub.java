@@ -22,6 +22,7 @@ public class Klub{
         this.namaKlub = namaKlub;
     }
 
+// nomor 4
     public void getDivisi(String cari )
     {
         for (int i = 0; i < liga.daftarDivisi.size() ; i++)
@@ -42,7 +43,7 @@ public class Klub{
     public void setDivisi(Divisi divisi) {
         this.divisi = divisi;
     }
-
+// nomor 5
     public void getLiga(String cari) {
         for (int i = 0; i < liga.daftarDivisi.size() ; i++)
         {

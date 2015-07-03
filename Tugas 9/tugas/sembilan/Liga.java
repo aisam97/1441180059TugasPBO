@@ -36,7 +36,8 @@ public class Liga{
         for (int i = 0; i < daftarLiga.size() ; i++)
         {
             Liga l = daftarLiga.get(i);
-            if (liga == l.getNamaLiga()) {
+            if (liga == l.getNamaLiga())
+            {
                 for (int j = 0; j <daftarDivisi.size() ; j++)
                 {
                     System.out.println(l.daftarDivisi.get(j));
