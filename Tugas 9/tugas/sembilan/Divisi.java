@@ -41,18 +41,21 @@ public class Divisi{
 
    public void getDaftarKlubLiga(String ligaCari)
    {
-       if (ligaCari == liga.getNamaLiga()) {
-
+       if (ligaCari == liga.getNamaLiga())
+       {
            for (int i = 0; i < liga.daftarDivisi.size() ; i++)
            {
                Divisi l = liga.daftarDivisi.get(i);
                System.out.println(l.getNamaDivisi());
-               for (int j = 0; j <daftarKlub.size() ; j++) {
+               for (int j = 0; j <daftarKlub.size() ; j++)
+               {
                    System.out.println(l.daftarKlub.get(j));
                }
-
            }
-
+       }
+       else
+       {
+           System.out.println("Tidak Dapat Ditemukan");
        }
    }
 //    nomor 3
@@ -69,6 +72,20 @@ public class Divisi{
                }
            }
        }
+           for (int i = 0; i < liga.daftarDivisi.size() ; i++)
+           {
+               Divisi l = liga.daftarDivisi.get(0);
+               Divisi k = liga.daftarDivisi.get(1);
+               if (divisiCari != k.getNamaDivisi())
+               {
+                   if (divisiCari != l.getNamaDivisi())
+                   {
+                       System.out.println("Tidak Ketemu");
+                       break;
+                   }
+               }
+           }
+
    }
 
     @Override
