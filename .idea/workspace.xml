@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe4e9e84-a302-4448-9c64-508a731e87b9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/1441180059TugasPBO/tugas/sembilan/Divisi.class" afterPath="$PROJECT_DIR$/out/production/1441180059TugasPBO/tugas/sembilan/Divisi.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/1441180059TugasPBO/tugas/sembilan/Klub.class" afterPath="$PROJECT_DIR$/out/production/1441180059TugasPBO/tugas/sembilan/Klub.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/1441180059TugasPBO/tugas/sembilan/Liga.class" afterPath="$PROJECT_DIR$/out/production/1441180059TugasPBO/tugas/sembilan/Liga.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/1441180059TugasPBO/tugas/sembilan/TestLiga.class" afterPath="$PROJECT_DIR$/out/production/1441180059TugasPBO/tugas/sembilan/TestLiga.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tugas 9/tugas/sembilan/Divisi.java" afterPath="$PROJECT_DIR$/Tugas 9/tugas/sembilan/Divisi.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tugas 9/tugas/sembilan/Liga.java" afterPath="$PROJECT_DIR$/Tugas 9/tugas/sembilan/Liga.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tugas 9/tugas/sembilan/Klub.java" afterPath="$PROJECT_DIR$/Tugas 9/tugas/sembilan/Klub.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tugas 9/tugas/sembilan/TestLiga.java" afterPath="$PROJECT_DIR$/Tugas 9/tugas/sembilan/TestLiga.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -34,21 +30,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Liga.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Liga.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tugas 9/tugas/sembilan/Liga.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
-              <folding>
-                <element signature="e#367#368#0" expanded="false" />
-                <element signature="e#407#408#0" expanded="false" />
-                <element signature="e#442#443#0" expanded="false" />
-                <element signature="e#473#474#0" expanded="false" />
-                <element signature="e#521#522#0" expanded="false" />
-                <element signature="e#561#562#0" expanded="false" />
-                <element signature="e#611#612#0" expanded="false" />
-                <element signature="e#646#647#0" expanded="false" />
-              </folding>
+            <state vertical-scroll-proportion="0.44012946">
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -57,11 +44,8 @@
         <entry file="file://$PROJECT_DIR$/Tugas 9/tugas/sembilan/Divisi.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="76" column="49" selection-start-line="76" selection-start-column="49" selection-end-line="76" selection-end-column="49" />
-              <folding>
-                <element signature="e#2279#2280#0" expanded="true" />
-                <element signature="e#2325#2326#0" expanded="true" />
-              </folding>
+              <caret line="77" column="32" selection-start-line="77" selection-start-column="32" selection-end-line="77" selection-end-column="32" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -70,30 +54,20 @@
         <entry file="file://$PROJECT_DIR$/Tugas 9/tugas/sembilan/Klub.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="49" column="48" selection-start-line="49" selection-start-column="48" selection-end-line="49" selection-end-column="48" />
+              <caret line="97" column="9" selection-start-line="97" selection-start-column="9" selection-end-line="97" selection-end-column="9" />
               <folding>
                 <element signature="docComment;class#Klub#0" expanded="false" />
                 <element signature="method#Klub#0;class#Klub#0" expanded="false" />
-                <element signature="e#366#367#0" expanded="true" />
-                <element signature="e#397#398#0" expanded="true" />
-                <element signature="e#445#446#0" expanded="true" />
-                <element signature="e#485#486#0" expanded="true" />
-                <element signature="e#1028#1029#0" expanded="true" />
-                <element signature="e#1064#1065#0" expanded="true" />
-                <element signature="e#1602#1603#0" expanded="true" />
-                <element signature="e#1634#1635#0" expanded="true" />
-                <element signature="e#1680#1681#0" expanded="true" />
-                <element signature="e#1721#1722#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestLiga.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestLiga.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tugas 9/tugas/sembilan/TestLiga.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6721763">
-              <caret line="46" column="48" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="57" column="24" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -148,8 +122,8 @@
         <option value="$PROJECT_DIR$/Tugas 9/tugas/sembilan/coba.java" />
         <option value="$PROJECT_DIR$/Tugas 9/tugas/sembilan/Liga.java" />
         <option value="$PROJECT_DIR$/Tugas 9/tugas/sembilan/Divisi.java" />
-        <option value="$PROJECT_DIR$/Tugas 9/tugas/sembilan/Klub.java" />
         <option value="$PROJECT_DIR$/Tugas 9/tugas/sembilan/TestLiga.java" />
+        <option value="$PROJECT_DIR$/Tugas 9/tugas/sembilan/Klub.java" />
       </list>
     </option>
   </component>
@@ -218,8 +192,9 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -276,7 +251,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -672,15 +646,17 @@
       <workItem from="1435884964997" duration="1051000" />
       <workItem from="1435889866945" duration="4241000" />
       <workItem from="1435917971592" duration="4295000" />
+      <workItem from="1435993588062" duration="1805000" />
+      <workItem from="1436101991897" duration="1746000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76494000" />
+    <option name="totallyTimeSpent" value="80045000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -733,7 +709,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/Tugas 9/tugas/sembilan/Klub.java</url>
-          <line>46</line>
+          <line>65</line>
           <properties class="tugas.sembilan.Klub" method="getLiga" />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
@@ -751,16 +727,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-          <folding>
-            <element signature="e#367#368#0" expanded="false" />
-            <element signature="e#407#408#0" expanded="false" />
-            <element signature="e#442#443#0" expanded="false" />
-            <element signature="e#473#474#0" expanded="false" />
-            <element signature="e#521#522#0" expanded="false" />
-            <element signature="e#561#562#0" expanded="false" />
-            <element signature="e#611#612#0" expanded="false" />
-            <element signature="e#646#647#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -779,16 +746,6 @@
           <folding>
             <element signature="docComment;class#Klub#0" expanded="false" />
             <element signature="method#Klub#0;class#Klub#0" expanded="false" />
-            <element signature="e#366#367#0" expanded="true" />
-            <element signature="e#397#398#0" expanded="true" />
-            <element signature="e#445#446#0" expanded="true" />
-            <element signature="e#485#486#0" expanded="true" />
-            <element signature="e#1028#1029#0" expanded="true" />
-            <element signature="e#1064#1065#0" expanded="true" />
-            <element signature="e#1602#1603#0" expanded="true" />
-            <element signature="e#1634#1635#0" expanded="true" />
-            <element signature="e#1680#1681#0" expanded="true" />
-            <element signature="e#1721#1722#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1251,19 +1208,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tugas 9/tugas/sembilan/Liga.java">
+    <entry file="file://$PROJECT_DIR$/Tugas 9/tugas/sembilan/TestLiga.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
+          <caret line="57" column="24" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tugas 9/tugas/sembilan/Klub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="97" column="9" selection-start-line="97" selection-start-column="9" selection-end-line="97" selection-end-column="9" />
           <folding>
-            <element signature="e#367#368#0" expanded="false" />
-            <element signature="e#407#408#0" expanded="false" />
-            <element signature="e#442#443#0" expanded="false" />
-            <element signature="e#473#474#0" expanded="false" />
-            <element signature="e#521#522#0" expanded="false" />
-            <element signature="e#561#562#0" expanded="false" />
-            <element signature="e#611#612#0" expanded="false" />
-            <element signature="e#646#647#0" expanded="false" />
+            <element signature="docComment;class#Klub#0" expanded="false" />
+            <element signature="method#Klub#0;class#Klub#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1271,39 +1230,15 @@
     <entry file="file://$PROJECT_DIR$/Tugas 9/tugas/sembilan/Divisi.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="76" column="49" selection-start-line="76" selection-start-column="49" selection-end-line="76" selection-end-column="49" />
-          <folding>
-            <element signature="e#2279#2280#0" expanded="true" />
-            <element signature="e#2325#2326#0" expanded="true" />
-          </folding>
+          <caret line="77" column="32" selection-start-line="77" selection-start-column="32" selection-end-line="77" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tugas 9/tugas/sembilan/Klub.java">
+    <entry file="file://$PROJECT_DIR$/Tugas 9/tugas/sembilan/Liga.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="49" column="48" selection-start-line="49" selection-start-column="48" selection-end-line="49" selection-end-column="48" />
-          <folding>
-            <element signature="docComment;class#Klub#0" expanded="false" />
-            <element signature="method#Klub#0;class#Klub#0" expanded="false" />
-            <element signature="e#366#367#0" expanded="true" />
-            <element signature="e#397#398#0" expanded="true" />
-            <element signature="e#445#446#0" expanded="true" />
-            <element signature="e#485#486#0" expanded="true" />
-            <element signature="e#1028#1029#0" expanded="true" />
-            <element signature="e#1064#1065#0" expanded="true" />
-            <element signature="e#1602#1603#0" expanded="true" />
-            <element signature="e#1634#1635#0" expanded="true" />
-            <element signature="e#1680#1681#0" expanded="true" />
-            <element signature="e#1721#1722#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tugas 9/tugas/sembilan/TestLiga.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6721763">
-          <caret line="46" column="48" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
+        <state vertical-scroll-proportion="0.44012946">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
       </provider>

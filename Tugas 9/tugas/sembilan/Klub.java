@@ -38,6 +38,25 @@ public class Klub{
                 }
             }
         }
+        Divisi l = liga.daftarDivisi.get(0);
+        Divisi k = liga.daftarDivisi.get(1);
+        Klub a = l.daftarKlub.get(0);
+        Klub b = l.daftarKlub.get(1);
+        Klub c = k.daftarKlub.get(0);
+        Klub d = k.daftarKlub.get(1);
+        if (cari != a.getNamaKlub())
+        {
+            if (cari != b.getNamaKlub())
+            {
+                if (cari != c.getNamaKlub())
+                {
+                    if (cari != d.getNamaKlub())
+                    {
+                        System.out.println("Tidak Ketemu");
+                    }
+                }
+            }
+        }
     }
 
     public void setDivisi(Divisi divisi) {
@@ -55,6 +74,25 @@ public class Klub{
                 if (cari == c.getNamaKlub())
                 {
                     System.out.println(liga.getNamaLiga());
+                }
+            }
+        }
+        Divisi l = liga.daftarDivisi.get(0);
+        Divisi k = liga.daftarDivisi.get(1);
+            Klub a = l.daftarKlub.get(0);
+            Klub b = l.daftarKlub.get(1);
+            Klub c = k.daftarKlub.get(0);
+            Klub d = k.daftarKlub.get(1);
+        if (cari != a.getNamaKlub())
+        {
+            if (cari != b.getNamaKlub())
+            {
+                if (cari != c.getNamaKlub())
+                {
+                    if (cari != d.getNamaKlub())
+                    {
+                        System.out.println("Tidak Ketemu");
+                    }
                 }
             }
         }

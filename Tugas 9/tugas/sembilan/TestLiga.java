@@ -55,6 +55,7 @@ public class TestLiga
         ac.getDivisi("Lazi");
         System.out.print("Nomor 5 = ");
         ac.getLiga("Lazio");
+        ac.getLiga("Lazi");
 
 
     }
